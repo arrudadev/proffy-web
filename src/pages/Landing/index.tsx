@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 import giveClassesIcon from '../../assets/icons/give-classes.svg';
 import purpleHeartIcon from '../../assets/icons/purple-heart.svg';
@@ -6,13 +7,19 @@ import studyIcon from '../../assets/icons/study.svg';
 import landingImg from '../../assets/landing.svg';
 import logoImg from '../../assets/logo.svg';
 
+import api from '../../services/api';
+
 import './styles.css';
 
 const Landing: React.FC = () => {
   const [totalConnections, setTotalConnections] = useState(0);
 
   useEffect(() => {
-    setTotalConnections(33);
+    api.get('connections').then(response => {
+      const { total } = response.data;
+
+      setTotalConnections(total);
+    });
   }, []);
 
   return (
@@ -30,10 +37,10 @@ const Landing: React.FC = () => {
         />
 
         <div className="buttons-container">
-          <a className="study">
+          <Link to="/study" className="study">
             <img src={studyIcon} alt="Estudar" />
             Estudar
-          </a>
+          </Link>
 
           <a className="give-classes">
             <img src={giveClassesIcon} alt="Dar aulas" />
