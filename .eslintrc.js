@@ -70,5 +70,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'no-use-before-define': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
+    'no-alert': 'off',
+    'no-console': 'off',
   },
 };

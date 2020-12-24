@@ -42,10 +42,10 @@ const Landing: React.FC = () => {
             Estudar
           </Link>
 
-          <a className="give-classes">
+          <Link to="/give-classes" className="give-classes">
             <img src={giveClassesIcon} alt="Dar aulas" />
             Dar aulas
-          </a>
+          </Link>
         </div>
 
         <span className="total-connections">

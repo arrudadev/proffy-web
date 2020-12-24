@@ -38,8 +38,8 @@ const TeacherList: React.FC = () => {
             name="subject"
             label="Matéria"
             value={subject}
-            onChange={e => {
-              setSubject(e.target.value);
+            onChange={event => {
+              setSubject(event.target.value);
             }}
             options={[
               { value: 'Artes', label: 'Artes' },
@@ -60,8 +60,8 @@ const TeacherList: React.FC = () => {
             name="week_day"
             label="Dia da semana"
             value={week_day}
-            onChange={e => {
-              setWeekDay(e.target.value);
+            onChange={event => {
+              setWeekDay(event.target.value);
             }}
             options={[
               { value: '0', label: 'Domingo' },
@@ -79,8 +79,8 @@ const TeacherList: React.FC = () => {
             name="time"
             label="Hora"
             value={time}
-            onChange={e => {
-              setTime(e.target.value);
+            onChange={event => {
+              setTime(event.target.value);
             }}
           />
 
