@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Proffy" title="Proffy" src=".github/assets/logo.svg" width="220px" />
+    <img alt="Proffy" title="Proffy" src="https://github.com/monteiro-alexandre/proffy-web/blob/master/.github/assets/logo.svg" width="220px" />
 </h1>
 
 <h4 align="center">
@@ -7,6 +7,8 @@
 </h4>
 
 > Proffy is an online study platform that helps people find teachers online. This is the web version.
+
+All the resources used by this application comes from its [`API`](https://github.com/monteiro-alexandre/proffy-api).
 
 <div align="left">
 
@@ -27,9 +29,9 @@
 
 Click to expand.<br>
 
-<img src=".github/assets/landing.png" width="49%"/>
-<img src=".github/assets/teachers.png" width="49%"/>
-<img src=".github/assets/form.png" width="49%"/>
+<img src="https://github.com/monteiro-alexandre/proffy-web/blob/master/.github/assets/landing.png" width="49%"/>
+<img src="https://github.com/monteiro-alexandre/proffy-web/blob/master/.github/assets/teachers.png" width="49%"/>
+<img src="https://github.com/monteiro-alexandre/proffy-web/blob/master/.github/assets/form.png" width="49%"/>
 
 # :construction_worker: Installation
 
@@ -77,7 +79,7 @@ Run the following command to start the application in a development environment:
 
 # :bug: Issues
 
-Feel free to **file a new issue** with a respective title and description on the the [Proffy API](https://github.com/monteiro-alexandre/proffy-web/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**! Have a look at our [contribution guidelines](https://github.com/monteiro-alexandre/proffy-web/blob/master/CONTRIBUTING.md) to find out about the coding standards.
+Feel free to **file a new issue** with a respective title and description on the the [Proffy web](https://github.com/monteiro-alexandre/proffy-web/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**! Have a look at our [contribution guidelines](https://github.com/monteiro-alexandre/proffy-web/blob/master/CONTRIBUTING.md) to find out about the coding standards.
 
 # :tada: Contributing
 
